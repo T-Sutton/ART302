@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: "Sour Gummy", sans-serif;
+}
+
+nav{
+    background-color: black;
+    width: 100%;
+    overflow: auto;
+    position: absolute;
+    top: 80%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+    margin: 0;
+    padding: 10px 10px;
+    list-style-type: none;
+    /* opacity: 0.5;
+    transition: .5s; */
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    width: 40%;
+    font-size: 2em;
+}
+
+/* .Home_Colo:hover{
+    background-color: ;
+} */
+
+.Home_Colo{
+    background-color: magenta;
+}
+
+.Abt_Colo:hover{
+    background-color: aqua;
+}
